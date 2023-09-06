@@ -1,0 +1,82 @@
+body{
+    background-color: bisque;
+}
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.list-item {
+    margin-bottom: 10px;
+}
+
+.list-title {
+    font-weight: bold;
+}
+
+.list-private {
+    font-style: italic;
+    color: #d9534f; /* Red color for private lists */
+}
+
+.create-list-form {
+    margin-top: 20px;
+}
+
+.logout-link {
+    margin-top: 20px;
+}
+.list-title {
+color: blue;
+}
+
+.list-description {
+color: green;
+}
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top:100px;
+}
+/* Additional styling for the submit button */
+.login-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+}
+p {
+    text-align: center;
+margin-top: 10px;
+font-size: 16px;
+color: #333; /* Change the color to your preference */
+}
+
+/* Styling for the <a> tag */
+a {
+
+text-decoration: none;
+color: #007bff; /* Link color */
+}
+
+a:hover {
+text-decoration: underline; /* Add underline on hover */
+}
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top:100px;
+}
+/* Additional styling for the submit button */
+.registration-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+}
